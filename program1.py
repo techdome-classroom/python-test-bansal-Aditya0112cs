@@ -4,7 +4,7 @@ class Solution:
             return False
         dict = {'(' : '),'[':'], '{' : '}'}
         stack = []
-        for iin s:
+        for i in s:
             if i in dict.keys():
                 stack.append(i)
             else:
